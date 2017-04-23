@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{71C6E774-E3B9-40D2-A8A3-CB64C0465ADC}</ProjectGuid>
+    <ProjectGuid>{83F8C43E-1E78-4291-AC29-DE6C7F09E5B5}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>StuckZipper</RootNamespace>
-    <AssemblyName>StuckZipper</AssemblyName>
+    <RootNamespace>NoteStatistics</RootNamespace>
+    <AssemblyName>NoteStatistics</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="StuckZipper.cs" />
+    <Compile Include="NoteStatistics.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
